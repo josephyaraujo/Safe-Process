@@ -17,8 +17,8 @@
           <a href="#historico" class="menu-link">De onde viemos</a>
           <a href="#processo" class="menu-link">Processo de Software</a>
           <a href="#safe" class="menu-link">SAFE Process</a>
-          <a href="#diagrama" class="menu-link">Diagrama</a>
           <a href="#papeis" class="menu-link">Papéis</a>
+          <a href="#diagrama" class="menu-link">Diagrama</a>
           <a href="#atividades" class="menu-link">Atividades</a>
         </nav>
       </div>
@@ -109,19 +109,6 @@
       </p>
     </section>
 
-    <!-- Diagrama de Atividades -->
-    <section id="diagrama" class="space-y-6">
-      <h2 class="text-3xl font-bold tracking-tight text-slate-900 border-b pb-2 border-slate-400">
-        Diagrama de Atividades
-      </h2>
-      <p class="text-slate-700 leading-relaxed">
-        O diagrama abaixo ilustra o fluxo de atividades do SAFE Process, mostrando como as etapas se conectam ao longo de cada iteração.
-      </p>
-      <div class="flex justify-center">
-        <img src="activity_diagram.png" alt="Diagrama de Atividades do SAFE Process" class="rounded-xl shadow-lg max-w-full h-auto">
-      </div>
-    </section>
-
     <!-- Papéis -->
     <section id="papeis" class="space-y-6">
       <h2 class="text-3xl font-bold tracking-tight text-slate-900 border-b pb-2 border-slate-400">
@@ -175,7 +162,7 @@
 
       <article class="border border-slate-200 border-l-4 border-l-green-600 rounded-xl bg-white p-5 shadow-sm">
         <h3 class="text-xl font-semibold text-slate-900">
-          04 - Stakeholders Institucionais (Alunos e Assistentes Sociais)
+          04 - Stakeholders Institucionais (Professores do PDS, Alunos e Assistentes Sociais)
         </h3>
         <p class="mt-2 text-sm uppercase tracking-wide text-slate-500 font-semibold">
           Responsabilidades
@@ -185,6 +172,19 @@
           <li>Fornecer feedback sobre usabilidade, fluxos de trabalho e informações exibidas.</li>
         </ul>
       </article>
+    </section>
+
+    <!-- Diagrama de Atividades -->
+    <section id="diagrama" class="space-y-6">
+      <h2 class="text-3xl font-bold tracking-tight text-slate-900 border-b pb-2 border-slate-400">
+        Diagrama de Atividades
+      </h2>
+      <p class="text-slate-700 leading-relaxed">
+        O diagrama abaixo ilustra o fluxo de atividades do SAFE Process, mostrando como as etapas se conectam ao longo de cada iteração.
+      </p>
+      <div class="flex justify-center">
+        <img src="activity_diagram.png" alt="Diagrama de Atividades do SAFE Process" class="rounded-xl shadow-lg max-w-full h-auto">
+      </div>
     </section>
 
     <!-- Atividades -->
@@ -288,24 +288,45 @@
 
       <article class="border border-slate-200 border-l-4 border-l-blue-600 rounded-xl bg-white p-5 shadow-sm">
         <h3 class="text-xl font-semibold text-slate-900">
-          06 - Revisão e Integração do Incremento
+          06 - Implantação e Entregas Acadêmicas
         </h3>
         <p class="mt-2 text-sm uppercase tracking-wide text-slate-500 font-semibold">
-          Prática ágil: Revisão do cliente (Scrum)
+          Prática ágil: Entrega contínua
         </p>
         <p class="mt-2 text-slate-700 leading-relaxed">
-          Ao final da implementação e testes, o drone revisa incrementos para garantir aderência aos padrões e às
-          histórias planejadas para a iteração.
+          Ao final da implementação e testes, o gerente revisa incrementos para garantir aderência aos padrões, consistência às
+          histórias planejadas para a iteração, funcionamento adequado.
         </p>
         <p class="mt-1 text-slate-700 leading-relaxed">
-          Após aprovados, os incrementos são integrados à branch principal e incorporados a releases, como a versão
-          “PDS WEB”.
+          Em momentos-chave do calendário (entregas, apresentações, entrega final), a equipe implanta versões estáveis
+          do sistema para uso por avaliadores e stakeholders. 
+        </p>
+        <p class="mt-1 text-slate-700 leading-relaxed">
+          Essas implantações consolidam incrementos produzidos ao longo das iterações.
         </p>
       </article>
 
       <article class="border border-slate-200 border-l-4 border-l-blue-600 rounded-xl bg-white p-5 shadow-sm">
         <h3 class="text-xl font-semibold text-slate-900">
-          07 - Revisão da Iteração e Retrospectiva
+          07 - Revisão da iteração
+        </h3>
+        <p class="mt-2 text-sm uppercase tracking-wide text-slate-500 font-semibold">
+          Prática ágil: Revisão do cliente (Scrum)
+        </p>
+        <p class="mt-2 text-slate-700 leading-relaxed">
+          A equipe apresenta os incrementos desenvolvidos aos Stakeholders Institucionais para validação. Eles testam as
+          funcionalidades, verificam se os critérios de aceitação foram atendidos e fornecem feedback para apontar melhorias, 
+          corrigir falhas e levantar novas necessidades, impulsionando o próximo ciclo de desenvolvimento.
+        </p>
+        <p class="mt-1 text-slate-700 leading-relaxed">
+          Se aprovados, os incrementos são integrados à branch principal e incorporados a releases. Senão, ajustes são
+          planejados e as demandas são adicionadas ao backlog para serem trabalhadas.
+        </p>
+      </article>
+
+      <article class="border border-slate-200 border-l-4 border-l-blue-600 rounded-xl bg-white p-5 shadow-sm">
+        <h3 class="text-xl font-semibold text-slate-900">
+          08 - Retrospectiva
         </h3>
         <p class="mt-2 text-sm uppercase tracking-wide text-slate-500 font-semibold">
           Prática ágil: Review e Retrospective (Scrum)
@@ -316,22 +337,6 @@
         <p class="mt-1 text-slate-700 leading-relaxed">
           Em seguida, realiza retrospectiva para identificar acertos, problemas e ações de melhoria para o próximo
           ciclo.
-        </p>
-      </article>
-
-      <article class="border border-slate-200 border-l-4 border-l-blue-600 rounded-xl bg-white p-5 shadow-sm">
-        <h3 class="text-xl font-semibold text-slate-900">
-          08 - Implantação e Entregas Acadêmicas
-        </h3>
-        <p class="mt-2 text-sm uppercase tracking-wide text-slate-500 font-semibold">
-          Prática ágil: Entrega contínua
-        </p>
-        <p class="mt-2 text-slate-700 leading-relaxed">
-          Em momentos-chave do calendário (entregas, apresentações, prova final), a equipe implanta versões estáveis
-          do sistema para uso por avaliadores e stakeholders.
-        </p>
-        <p class="mt-1 text-slate-700 leading-relaxed">
-          Essas implantações consolidam incrementos produzidos ao longo das iterações, como a versão “PDS WEB”.
         </p>
       </article>
     </section>
